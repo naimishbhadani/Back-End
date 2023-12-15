@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+          overflow: hidden;
+          background-color: rgb(65, 47, 76);
+        }
+
+        .navbar a {
+          float: left;
+          font-size: 16px;
+          color: rgb(214, 160, 160);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+          font-size: 16px;
+          border: none;
+          outline: none;
+          color: rgb(93, 73, 73);
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: rgb(218, 222, 4);
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #9dd4d0;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">View
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href= "http://localhost/Alphonsusschool/viewstudents.php">students</a>
+                    <a href="http://localhost/Alphonsusschool/viewparents.php">parents</a>
+                    <a href="http://localhost/Alphonsusschool/viewclasses.php">classes</a>
+                    <a href="http://localhost/Alphonsusschool/viewteachers.php">teachers</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Add
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="AddStudent.html">Students</a>
+                    <a href="Addparents.html">Parents</a>
+                    <a href="Addteachers.html">Teachers</a>
+                    <a href="Addclasses.html">Classes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Delete
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="deletestudents.html">Student</a>
+                  <a href="deleteparents.html">Parent</a>
+                  <a href="deleteclasses.html">Class</a>
+                  <a href="deleteteachers.html">Teacher</a>
+              </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Update
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="updatestudents.html">Student</a>
+                <a href="updateparents.html">Parent</a>
+                <a href="updateteachers.html">Teacher</a>
+                <a href="updateclasses.html">Class</a>
+            </div>
+        </div>
+            <a href="Contact.html">Contact Us</a>
+        </div>
+      <img src="school.png"  width="500" height="333">
+        
+        <h1>Welcome to Alphonsus Primary School</h1>
+        <p>Welcome to Alphonsus Primary School.  This is a school where our children enjoy their learning, the staff work hard to establish a caring Christian community and everyone is valued equally. .</p>
+
+        <h2>History of the school</h2>
+        <p>Alphonsus School is a happy school and we believe we achieve this by providing a safe and secure environment in which our children grow and learn with confidence..</p>
+        <p>@All Copy Right Reserved</p>
+      </body>
+</html>
